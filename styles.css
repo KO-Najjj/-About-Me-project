@@ -1,0 +1,22 @@
+img {
+  width: 700px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin: auto;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
