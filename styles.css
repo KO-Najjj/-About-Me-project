@@ -1,22 +1,153 @@
-img {
-  width: 700px;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-h2 {
-  text-align: center;
-  text-decoration: underline;
-  margin: auto;
-  padding: 10px;
-  font-weight: lighter;
+/* Google Font */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#F8F5EC;
+    color:#2F2F2F;
 }
 
-a {
-  text-decoration: underline;
-  color: black;
-  font-weight: bold;
+/* ---------- NAVBAR ---------- */
+
+.navbar{
+    background:#F8F5EC !important;
+    padding:20px 0;
+}
+
+.navbar-brand{
+    color:#556B2F !important;
+    font-size:2rem;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#556B2F !important;
+    font-weight:600;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#3E4E24 !important;
+}
+
+/* ---------- HEADINGS ---------- */
+
+h1{
+    color:#556B2F;
+    font-weight:700;
+    margin-bottom:35px;
+}
+
+h2{
+    color:#556B2F;
+}
+
+/* ---------- PROFILE IMAGE ---------- */
+
+.profile-image{
+    width:500px;
+    max-width:100%;
+    border-radius:20px;
+    display:block;
+    margin:auto;
+    border:8px solid #D8E0C8;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+/* ---------- PARAGRAPHS ---------- */
+
+p{
+    font-size:18px;
+    line-height:1.9;
+    margin-top:25px;
+}
+
+/* ---------- BUTTON ---------- */
+
+.btn-primary{
+    background:#556B2F;
+    border:none;
+    border-radius:30px;
+    padding:12px 28px;
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    background:#3E4E24;
+}
+
+/* ---------- SECTION ---------- */
+
+section{
+    padding:70px 0;
+}
+.hobby-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    background:#ffffff;
+}
+
+.hobby-card img{
+    height:280px;
+    object-fit:cover;
+}
+
+.hobby-card h3{
+    color:#556B2F;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.hobby-card p{
+    font-size:16px;
+}
+/* ---------- PROJECT CARDS ---------- */
+
+.project-card{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: transform .3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+}
+
+.project-card img{
+    height: 250px;
+    object-fit: cover;
+    background: #D8E0C8;
+}
+
+.project-card h3{
+    color: #556B2F;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.project-card p{
+    text-align: center;
+    font-size: 16px;
+}
+/* ---------- CONTACT SECTION ---------- */
+
+footer{
+    margin-top:80px;
+    border-top:2px solid #D8E0C8;
+    padding-top:30px;
+}
+
+footer h3{
+    color:#556B2F;
+    font-weight:700;
+}
+
+footer p{
+    margin:0;
+    font-size:17px;
 }
